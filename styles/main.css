@@ -106,7 +106,7 @@ section {
 
 width: 525px;
 
-float: left;
+float: right;
 
 padding: 0 20px 20px 20px;
 
@@ -118,7 +118,7 @@ width: 265px;
 
 float: left;
 
-margin-right: 10px;
+margin-left: 10px;
 
 }
 
@@ -197,25 +197,7 @@ padding-bottom: .25em;
 }
 
 article img {
-
-float: right;
-
-margin: .5em 0 1em 1em;
-
-border: 1px solid black;
-
-transition: 3s;
-
-width: 99%;
-
-}
-
-article img:hover {
-
-transform-origin: left top;
-
-transform: rotate(720deg);
-
+  float: right;
 }
 
 /* the styles for the table */
@@ -258,7 +240,7 @@ text-align: left;
 
 tfoot th, tfoot td {
 
-text-align: right;
+text-align: left;
 
 font-weight: bold;
 
@@ -270,9 +252,9 @@ border-bottom: 2px solid #800000;
 
 }
 
-.right {
+.left {
 
-text-align: right;
+text-align: left;
 
 }
 
